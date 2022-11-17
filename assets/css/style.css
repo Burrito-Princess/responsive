@@ -1,0 +1,66 @@
+body{
+    font-size: 200%;
+}
+#container{
+    width: 90%;
+    max-width: 960px;
+    height: 1000px;
+    margin: 10px auto;
+}
+#header{
+    width: 100%;
+    height: 15.3846%;
+    background-color: paleturquoise;
+    border-radius: 50px;
+    text-align: center;
+
+}
+#nav{
+    width: 100%;
+    height: 7.6923%;
+    background-color: palegreen;
+    border-radius: 50px;
+    text-align: center;
+}
+#main{
+    /* background-color: palegoldenrod; */
+    width: 100%;
+    height: 61.5385%;
+    background-color: palegoldenrod;
+    display: flex;
+    border-radius: 50px;
+}
+#articles{
+    width: 70%;
+    
+}
+.article{
+    width: 80%;
+    height: 25%;
+    background-color: palevioletred;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+#side{
+    width: 30%;
+    background-color: paleturquoise;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#footer{
+    width: 100%;
+    height: 15.3846%;
+    background-color: palegreen;
+    border-radius: 50px;
+    text-align: center;
+}
+@media all and (max-width: 768px){
+    #main{
+        width: 100%;
+    }
+    #side{
+        width: 100%;
+    }
+}
